@@ -23,3 +23,7 @@ exports.getUsers = (req,res,next) =>{
         res.status(500).json({error:e})
     })
 }
+
+exports.test = (req,res,next)=>{
+    res.send("Hey!")
+}

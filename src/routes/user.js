@@ -6,4 +6,6 @@ router.post('/create',userController.createUser)
 
 router.get('/get',userController.getUsers)
 
+router.get('/',userController.test)
+
 module.exports = router
