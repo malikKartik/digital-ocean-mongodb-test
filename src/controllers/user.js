@@ -25,5 +25,6 @@ exports.getUsers = (req,res,next) =>{
 }
 
 exports.test = (req,res,next)=>{
+    console.log("Here")
     res.send("Hey!")
 }
